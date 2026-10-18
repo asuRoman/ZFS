@@ -159,7 +159,7 @@ wget -O otus_task2.file --no-check-certificate https://drive.usercontent.google.
 
 zfs receive otus/test@today < otus_task2.file
 
-#поиск файлв с сообщением
+#поиск файлов с сообщением
 
 find /otus/test -name "secret_message"
 
